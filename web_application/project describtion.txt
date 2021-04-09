@@ -1,0 +1,18 @@
+The web application is a staff puntuality record system for primary aand secondary schools that takes the record of staffs attendants for the month,
+and then compute the most puntual staff of the month and therefore allocate a bonus salary to the staff based on the puntuality off the staff.
+
+How it works
+The staffs register on the registeration page and an ID is allocated to that staff(A 3 Alpha numeric ID)for fast login time
+and to save the use of name especially long names.
+i.Every morning the staffs login with their ID and the application automatically takes the login time and saves it on the databse
+(Note:No staff can login twice a day)
+ii.At afternoon the staff log out, that is during dismissal time and the process above(i) is repeated again
+(Note:No staff can perform the same process twice on the same day,the program flags a warning until the next day.)
+
+After a month the Admin then logs into the Admin page on the application(Note: the program retrieves the data form the database and then translate it to a user
+friendly interface  for the Admin to easily understand )
+i.The app compute each staffs time record for the Admin to see for every login/logout record of the staff and their dates respectively
+
+ii.it then represent the percentage of puntuality and a color representation of the percentage
+(Red for staff poor time record,and yellow, green for better performances)
+ii.Allocate a bonus reward payment for puntual staff  .
